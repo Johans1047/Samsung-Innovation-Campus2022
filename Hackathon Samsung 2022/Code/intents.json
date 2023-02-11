@@ -1,0 +1,284 @@
+{
+  "intents": [
+    {
+      "tag": "us",
+      "patterns": [
+        "Quienes son?",
+        "Quien te creo?",
+        "Como se llaman tus desarolladores?"
+
+      ],
+      "responses": [
+        "Soy Pythin, un chatbot desarollado\n por el team Pythoneros.",
+        "Fui desarollado por un equipo del\n Samsung Innovation Campus",
+        "Fui creado por unos pelaos"
+      ]
+    },
+    {
+      "tag": "Reasons",
+      "patterns": [
+        "Por que te crearon?",
+        "Para que sirves",
+        "Cual es tu objetivo?"
+      ],
+      "responses": [
+        "Fui creado para ganar",
+        "Mi objetivo es ganar"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hola",
+        "Que tal?",
+        "Hay alguien ahi?",
+        "Alo",
+        "Buenos dias",
+        "Buenas tardes",
+        "Buenas noches",
+        "Buenas",
+        "Que xopa",
+        "Dimelo papi",
+        "Marca",
+        "Habla io",
+        "que lo que",
+        "qlq",
+        "Como estas?"
+      ],
+      "responses": [
+        "Hola, gracias por ponerte en contacto con nosotros",
+        "Hola! Bienvenido. Un gusto atenderte",
+        "Hola Bienvenido",
+        "Que tal!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Adios",
+        "Hasta luego",
+        "Gracias por la informacion",
+        "Muchas gracias, hasta luego",
+        "chao que te vi",
+        "chao",
+        "cya",
+        "xao",
+        "Voy pa lante",
+        "Bye",
+        "Good bye",
+        "bai"
+
+      ],
+      "responses": [
+        "Hasta luego",
+        "Ten un buen dia",
+        "No dudes en contactarnos si tienes alguna otra duda",
+        "Para servirte :)"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Gracias",
+        "Agradecido",
+        "Excelente, gracias",
+        "Muchas gracias",
+        "Volvere",
+        "okay",
+        "Bien hecho"
+      ],
+      "responses": [
+        "Feliz de ayudarte",
+        "Gracias a ti :)",
+        "Un placer ayudarte ",
+        "De nada",
+        "A tu orden"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Donde se encuentran ubicados?",
+        "Tienen tienda fisica?",
+        "Donde estan?",
+        "Me envias la ubicacion?",
+        "Como los encuentro?",
+        "Como llego a su tienda?"
+      ],
+      "responses": [
+        "Estamos ubicados en Parque Natural Metropolitano,\n STEAM House, Rep. de Panamá, Av. Juan Pablo II 7, Panama City"
+      ]
+    },
+    {
+      "tag": "Links",
+      "patterns": [
+        "Tienen algun link?",
+        "Cual es su tienda virtual?",
+        "Me envias el link de la tienda?",
+        "Como accedo a su pagina?"
+      ],
+      "responses": [
+        "En este link podras ver nuestra pagina oficial:https://www.fundesteam.org/",
+        "Claro, este es el link de nuestra pagina oficial: https://www.fundesteam.org/"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Puedo pagar con tarjetas de credito?",
+        "Aceptan clave?",
+        "Yappy?",
+        "Puedo pagar con tarjeta de debito?",
+        "Puedo pagar con cheques?",
+        "Como cancelo?",
+        "Con que1 puedo cancelar?"
+      ],
+      "responses": [
+        "Efectivamente",
+        "Si, puedes pagar con Clave",
+        "Si, puedes pagar con yappy a traves de GeekyDrop.",
+        "Puedes pagar con tarjetas de debito",
+        "Aceptmos la mayoria de tarjetas de credito/debido"
+      ]
+    },
+    {
+      "tag": "opentoday",
+      "patterns": [
+        "Que dias abren?",
+        "Que dias los puedo visitar?",
+        "Que dias estan abiertos?"
+      ],
+      "responses": [
+        "Estamos abiertos de lunes a sabados de 8:00 A.M. a 5:00 P.M."
+      ]
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "Que venden?"
+      ],
+      "responses": [
+        "Todo lo que necesites!"
+      ]
+    },
+    {
+      "tag": "Help",
+      "patterns": [
+        "¿Me puede ayudar?",
+        "Necesito ayuda",
+        "tengo un problema"
+
+      ],
+      "responses": [
+        "Cuentame, Que necesitas?",
+        "Que sucede?"
+      ]
+    },
+    {
+      "tag": "Catalogo",
+      "patterns": [
+        "Tienen catalogo de productos?",
+        "A ver el catalogo",
+        "Me podrias enviar el catalogo de productos?",
+        "Como puedo ver sus productos?"
+      ],
+      "responses": [
+        "En este link puedes ver nuestro catalogo\n de productos: https://shop.samsung.com/latin/",
+        "Puedes ver los productos en nuestra pagina\n oficial https://shop.samsung.com/latin/"
+      ]
+    },
+    {
+      "tag": "GamingMonitors",
+      "patterns": [
+        "Tienen monitores gaming?",
+        "Cuantos Hz tienen los monitores?",
+        "Venden monitores para jugar?",
+        "Lo quiero para jugar",
+        "Necesito mas fps",
+        "fps"
+      ],
+      "responses": [
+        "Si, Tenemos la mejor relacion calidad-precio del mercado",
+        "Desde 60Hz hasta 165Hz",
+        "Si, contamos con una serie de monitores dedicada a jugadores profesionales",
+        "Si, puedes verlos en nuestra pagina web "
+      ]
+    },
+    {
+      "tag": "ProMonitors",
+      "patterns": [
+        "Venden monitores para editar?",
+        "Necesito editar videos",
+        "Necesito una buena gama de colores",
+        "Necesito un monitor de 1080p",
+        "Necesito un monitor 4k",
+        "Quiero muchos fps y gran calidad"
+      ],
+      "responses": [
+        "Si, Tenemos diferentes modelos que se ajustan a la exigencia del usuario",
+        "Desde 60Hz hasta 165Hz",
+        "Si, contamos con una serie profesional dedicada para creadores de contenido",
+        "Si, puedes verlos en nuestra pagina web"
+      ]
+    },
+    {
+      "tag": "Warranty",
+      "patterns": [
+        "Mi equipo esta danado",
+        "Tengo un problema con un producto",
+        "La pantalla llego danada",
+        "No sirve"
+      ],
+      "responses": [
+        "Oh no envianos los detalles al correo info@fundesteam.org\n o contactanos al siguiente numero 317-0379 "
+      ]
+    },
+    {
+      "tag": "Cotizacion",
+      "patterns": [
+        "Quiero hacer una cotizacion",
+        "Como cotizo?",
+        "Necesito cotizar varios productos",
+        "Donde realizo la cotizacion?"
+      ],
+      "responses": [
+        "Para cotizar puedes hablar directamente\n con nuestro equipo de cotizacio al numero 317-0379 ",
+        "Puedes cotizar enviando un mensaje\n a nuestro correo: info@fundesteam.org"
+      ]
+    },
+    {
+      "tag": "Warranty",
+      "patterns": [
+        "Mi equipo esta danado",
+        "Mi monitor viene con un defecto",
+        "La pantalla llego danada",
+        "No sirve"
+      ],
+      "responses": [
+        "Oh no envianos los detalles al correo sales@porthopeinvestment.com o contactanos al siguiente numero 275-6822"
+      ]
+    },
+    {
+      "tag": "Appointment",
+      "patterns": [
+        "Para cuando es mi cita?",
+        "Quiero una cita!",
+        "Necesito una cita",
+        "Donde consigo una cita?"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": ["Quiero recibir un envio", "Como puedo recibir un envio?", "Quiero recibir un producto","Quiero recibir un paquete","Como puedo recibir un paquete?"],
+      "responses": ["Para recibir un paquete necesito que me brinde su direccion.","Claro, brindeme su direccion, por favor."]
+    },
+    {
+      "tag": "",
+         "patterns": ["qwertyuioplkjhgfdsazxcvbnm1234567890"],
+         "responses": ["No entiendo que me dijiste, oops"]
+    }
+  ]
+}

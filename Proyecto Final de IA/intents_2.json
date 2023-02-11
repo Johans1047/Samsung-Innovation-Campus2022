@@ -1,0 +1,60 @@
+{"intents": [
+     {"tag": "",
+    "patterns": ["abcdefghijklnmopqrstuvwxyz123456789"],
+    "responses": ["no te entiendo"]
+   },
+   {"tag": "greeting",
+    "patterns": ["Hola", "Como estas?", "Hay alguien ahi?", "Alo.", "Buenos dias.","Buen dia."],
+    "responses": ["Buenas, en que puedo ayudarlo?\nMe facilita su nombre y su numero de telefono?", "Gracias por visitarnos, que necesita?\nMe facilita su nombre y su numero de telefono?", "Un gusto verte de nuevo.\nMe facilita su nombre y su numero de telefono?", "Hola, en que puedo ayudarlo?\nMe facilita su nombre y su numero de telefono?"]
+   },
+   {"tag": "goodbye",
+    "patterns": ["Adios.", "Nos vemos luego.", "Nos vemos pronto."],
+    "responses": ["Hasta luego, gracias por su visita.", "Que tenga un buen dia.", "Adios, espero verle pronto."]
+   },
+   {"tag": "thanks",
+    "patterns": ["Gracias.", "Muchas Gracias.", "Gracias por la ayuda."],
+    "responses": ["Estoy para ayudar.", "De nada!", "Fue un placer ayudarle.","Estoy para ayudar."]
+   },
+   {"tag": "availability",
+    "patterns": ["Que habitaciones hay disponibles?", "Sabes si hay habitaciones disponibles?", "Tienen Habitaciones disponibles?" ],
+    "responses": ["Si, hay habitaciones disponible, tenemos disponibles las habitaciones xx0, xx1...", "Se encuentran disponibles las siguientes habitaciones: "]
+   },
+   {"tag": "points",
+    "patterns": ["Que puntos de interes hay cerca de este hotel?", "Que actividades se pueden realizar en la zona?", "Que lugares se pueden visitar en el area?" ],
+    "responses": ["Algunos puntos de interes son...","Algunos puntos que puede visitar son...","Algunas actividades que puede realizar son..." ]
+   },
+   {"tag": "reservation",
+    "patterns": ["Como podria resevar una habitación en el hotel?", "Donde puedo reservar?", "Hay alguna forma de apartar habitaciones"],
+    "responses": ["Por supuesto, en la siguente pagina podra resevar una habitacion..."]
+   },
+   {"tag":"openhour",
+    "patterns":["A que hora puedo llegar al hotel?","Cual es entrada al hotel?", "A que hora abren?","Cuando cierran?","A que hora cierran?","Cual es la hora de cierre?"],
+    "responses": ["El Hotel esta abierto para visitas desde las 9:00 am a 11:59 am."]
+   },
+   {"tag":"includes",
+    "patterns":["Que incluye el totel?","La estadia viene con todo incluido?","Ademas de la habitación, que mas trae el hotel?","Que mas ofrece el hotel?"],
+    "responses": ["El hotel incluye un paquete estandar en el que incluye comida, El paquete Tour que incluye Tour y Transporte y el paquete premiun que incluye Tour, transporte y comida."]
+   },
+   {"tag":"pets",
+    "patterns": ["Se permiten mascota en el hotel?","Puedo llevar a mis mascotas?","Aceptan mascotas?"],
+    "responses": ["Se admiten todo tipos de mascotas, excepto reptiles."]
+   },
+   {"tag":"guidelines",
+    "patterns": ["Cuales son los lineamientios del hotel?","que reglas tiene el hotel?","Tienen normas a seguir?","Que tipos de reglamentos tienen implemantados?"],
+    "responses": ["Los linemientos a seguir son: prohibido fumar, no se admiten reptiles, no se permiten armas de fuego."]
+   },
+   {"tag":"specifications",
+    "patterns": ["De que tamaño son las habitaciones?","Tienen habitaciones para una sola persona?","Tienen habitaciones para muchas personas?","que tipo de habitaciones tienen?","Cuantas camas tienen las habitaciones?","Tienen habitaciones para un grupo grande?"],
+    "responses": ["Individuales; desde 8 metros cuadrados, Parejas; desde 14 metros cuadrados, Familiar; desde 24 metros cuadrados y la grupal(8 personas); desde 32 metros cuadrados."]
+   },
+   {"tag":"location",
+    "patterns": ["Donde estan ubicados?","Donde se localizan?"],
+    "responses": ["Nuestra sede principal esta ubicada en Panama, pero tambien estamos en Colon, Chiriqui y Los Santos."]
+   },
+   {"tag":"claim",
+    "patterns": ["Donde puedo realizar algun reclamo?","Quiero realizar un reclamo.","Quiero reclamar algo.","Vengo por un reclamo.","Donde se encuentra atencio al cliente?"],
+    "responses": ["Si desea realizar algun tipo de reclamo haga click en el link a continuacion..."]
+   }
+
+]
+}
